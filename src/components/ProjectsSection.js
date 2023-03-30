@@ -9,7 +9,7 @@ const projects = [
     linked:"https://cam0nz.wixsite.com/my-site",
     description:
       "A simple E-commerce designed in Wix",
-    getImageSrc: () => require("../assets/images/photo1.pngtouch"),
+    getImageSrc: () => require("../assets/images/photo1.png"),
   },
   {
     title: "React Infinite Scroll",
