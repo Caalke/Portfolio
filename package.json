@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "http://caalke.github.io/main"
+    "homepage": "https://caalke.github.io/portfolio"
   },
   "eslintConfig": {
     "extends": [
