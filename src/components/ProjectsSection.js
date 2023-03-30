@@ -17,18 +17,18 @@ const projects = [
       "Fully responsive car company landing page demo",
     getImageSrc: () => require("../assets/images/photo2.png"),
   },
-  {
-    title: "Photo Gallery",
-    description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../assets/images/photo3.jpg"),
-  },
-  {
-    title: "Event planner",
-    description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../assets/images/photo4.jpg"),
-  },
+  // {
+  //   title: "Photo Gallery",
+  //   description:
+  //     "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+  //   getImageSrc: () => require("../assets/images/photo3.jpg"),
+  // },
+  // {
+  //   title: "Event planner",
+  //   description:
+  //     "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+  //   getImageSrc: () => require("../assets/images/photo4.jpg"),
+  // },
 ];
 
 const ProjectsSection = () => {
