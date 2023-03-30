@@ -5,10 +5,11 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "BENT HALO",
+    linked:"https://cam0nz.wixsite.com/my-site",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../assets/images/photo1.jpg"),
+      "A simple E-commerce designed in Wix",
+    getImageSrc: () => require("../assets/images/photo1.pngtouch"),
   },
   {
     title: "React Infinite Scroll",
@@ -53,6 +54,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imageSrc={project.getImageSrc()}
+            linked={project.linked}
           />
         
         ))}
