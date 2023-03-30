@@ -8,14 +8,14 @@ const projects = [
     title: "BENT HALO",
     linked:"https://cam0nz.wixsite.com/my-site",
     description:
-      "A simple E-commerce designed in Wix",
+      "A simple E-commerce site designed in Wix",
     getImageSrc: () => require("../assets/images/photo1.png"),
   },
   {
-    title: "React Infinite Scroll",
+    title: "Hype-ER",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../assets/images/photo2.jpg"),
+      "Fully responsive car company landing page demo",
+    getImageSrc: () => require("../assets/images/photo2.png"),
   },
   {
     title: "Photo Gallery",
