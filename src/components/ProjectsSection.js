@@ -13,6 +13,7 @@ const projects = [
   },
   {
     title: "Hype-ER",
+    linked:"https://caalke.github.io/Hyper-ER/",
     description:
       "Fully responsive car company landing page demo",
     getImageSrc: () => require("../assets/images/photo2.png"),
